@@ -1,0 +1,68 @@
+html, body {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #696969;
+}
+#container{
+    width: 100%;
+    align-content: center;
+    margin-top: 5rem;
+}
+#formulario {
+    width: 370px;
+    height: 270px;
+    background-color: #c7d3d4;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.campo{
+    display: flex;
+    padding: 0.2rem;
+}
+.text {
+    width: 45%;
+}
+input {
+    border: none;
+    border-radius: 5px;
+}
+.inputs {
+    width: 200px;
+    height: 20px;
+    cursor: text;
+}
+#list input {
+    width: 200px;
+    height: 20px; 
+}
+#sexo label, input {
+    cursor: pointer;
+}
+#button {
+    display: flex;
+    padding: 0.7rem;
+    flex-direction: row;
+}
+#button input {
+    background-color: #88a8aa;
+    color: #36589c;
+}
+#button1 {
+    width: 45%;
+    position: relative;
+}
+#button1 input {
+    height: 25px;
+}
+#button2 input {
+    border: none;
+    border-radius: 5px;
+    width: 190px;
+    height: 25px;
+}
+p {
+    color: red;
+}
+
+

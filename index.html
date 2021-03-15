@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="formulario">
+            <h1>Cadastro de Funcionário</h1>
+            <form onsubmit="return validar(); ">
+                <div class="campo">
+                    <div class="text">Nome:</div>
+                    <input class="inputs" type="text" value="" name="nome">
+                </div>
+                <div class="campo">
+                    <div class="text">E-mail:</div>
+                    <input class="inputs" type="text" value="" name="e-mail">
+                </div>
+                <div class="campo">
+                    <div class="text">Data de Nascimento:</div>
+                    <input class="inputs" type="date" value="" name="data">
+                </div>
+                <div class="campo">
+                    <div class="text">Escolaridade:</div>
+                    <input class="inputs" list="escolaridade" name="escolaridade">
+                    <datalist id="escolaridade">
+                        <option value="Ensino Fundamental"></option>
+                        <option value="Ensino Médio"></option>
+                        <option value="Ensino Superior"></option>
+                    </datalist>
+                </div>
+                <div class="campo">
+                    <div class="text">Sexo:</div>
+                    <label><input type="radio" name="sexo" value=""> Feminino</label>
+                    <label><input type="radio" name="sexo" value=""> Masculino</label>
+                </div>
+                <div id="button">
+                    <div id="button1"><input type="reset" value="Limpar"></div>
+                    <div id="button2"><input type="submit" value="Enviar"></div>
+                </div>
+            </form>
+            <p class="avisoText"></p>
+        </div>
+    </div>
+</body>
+
+</html>
